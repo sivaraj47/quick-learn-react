@@ -1,19 +1,23 @@
 .count{
     background-color: #dfd;
-    width:300px;    
+    min-width:150px;    
+    max-width: 300px;
     margin: 50px auto;
     display: flex;
     align-items:center;
     flex-direction: column;
     padding:20px;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
-button{
+button{    
+    
     margin:5px;
     background-color: #fff; 
     padding: 10px 20px;
     border:none;
     border-radius: 10px;
+   
     box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.867);
 }
 button:nth-child(1):hover{
