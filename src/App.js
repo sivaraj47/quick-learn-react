@@ -1,5 +1,6 @@
 import React from 'react';
 import Welcome from './Welcome';
+import Count from './Count';
 import './style.css';
 
 function Address(props){
@@ -32,6 +33,7 @@ export default function App() {
       <Address add="guindy"/>
       <Educ std="10th standard" mark="80% mark" school="Bishop Herber HR School" />
       <Work role="Senior Designer" />
+      <Count />
     </div>
   );
 }
