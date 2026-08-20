@@ -10,11 +10,7 @@ function Educ(props){
     <>
 <h2>I am studying {props.std}</h2>
 <h2>I got this quatly {props.mark}</h2>
-<h2>School name if (condition) {
-  
-} else {
-  
-} {props.school}</h2>
+<h2>My School name {props.school}</h2>
 </>
   ); 
 }
